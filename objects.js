@@ -1,8 +1,9 @@
 var playlist = {Artist:"Singing"};
-delete playlist.Artist;
 
 function updatePlaylist(playlist, artistName, songTitle) {
+  console.log(playlist);
   playlist.artistName = songTitle;
+  console.log(playlist);
 }
 
 function removeFromPlaylist(playlist, artistName) {
