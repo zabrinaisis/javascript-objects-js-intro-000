@@ -28,10 +28,10 @@ describe('objects', () => {
     })
 
     it('adds the `artistName: songTitle` key-value pair to `playlist`', () => {
-      updatePlaylist(playlist, 'Flatiron', "Sucks")
+      updatePlaylist(playlist, 'Phil Ochs', "Here's to the State of Mississippi")
 
       expect(playlist).
-        to.contain.all.keys({'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes', 'Flatiron': "Sucks"})
+        to.contain.all.keys({'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes', 'Phil Ochs': "Here's to the State of Mississippi"})
     })
   })
 
